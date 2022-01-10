@@ -1,0 +1,29 @@
+.circle-wrap {
+    width: 200px;
+    height: 200px;
+    background: #fb5200;
+    border-radius: 50%;
+    border: 20px solid #fc2f2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+        transition: .6s; 
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hover {
+    width: 250px;
+    height: 250px;
+    background: #397eff;
+    border-radius: 50%;
+    border: 20px solid #2faafc;
+    transform:scale(2)
+}
